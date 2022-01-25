@@ -37,10 +37,12 @@ or make the board using the uploaded files on a UNO
 9) close Board manager
 
 for programing you can use a UNO or any other boards as programmer but you can also use a usb to ISP converter 
-10 A.1) Upload "ArduinoISP.ino" onto arduino to be used as intermediary for bootloading
-10 A.2) Set Tools > programmer > Arduino as ISP (Minicore);
-10 B.1)using a USBasp make sure to have the right driver if not working properly try installing LIBUSBK using https://zadig.akeo.ie
-10 B.2) Set Tools > programmer > USBasp (minicore)
+
+10) A.1) Upload "ArduinoISP.ino" onto arduino to be used as intermediary for bootloading
+10) A.2) Set Tools > programmer > Arduino as ISP (Minicore);
+
+10) B.1)using a USBasp make sure to have the right driver if not working properly try installing LIBUSBK using https://zadig.akeo.ie
+10) B.2) Set Tools > programmer > USBasp (minicore)
 
 11) Tools > Board > minicore > Atmega328
 12) Tools > Board > Select clock used and varriant

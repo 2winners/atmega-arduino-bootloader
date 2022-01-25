@@ -4,19 +4,19 @@ Board and HOWTO to upload bootloader onto atmega 328P-PU 328P-AU 328P
 
 hardware  connections
 
-ID  USBasp ARD > Target 328p-au
+ID --   USBasp --   Arduino > Target 328p-au
 
-VCC:  2     5V  > pin 4 & 18
+VCC: --   2  --     5V  >   pin 4 & 18
 
-GND:  4     GND > Pin 5 & 21
+GND: --   4  --     GND >   Pin 5 & 21
 
-MOSI: 1     11  > Pin 15
+MOSI: --  1   --    11  >   Pin 15
 
-MISO: 9     12  > pin 16
+MISO: --  9  --     12  >   pin 16
 
-SCK:  7     13  > pin 17
+SCK: --   7  --     13  >   pin 17
 
-RST:  5     10  > pin 29
+RST: --   5  --     10  >   pin 29
 
 
 Xtal1:          > pin 7

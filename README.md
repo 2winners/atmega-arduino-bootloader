@@ -3,15 +3,24 @@ Board and HOWTO to upload bootloader onto atmega 328P-PU 328P-AU 328P
 
 
 hardware  connections
+
 ID  USBasp ARD > Target 328p-au
+
 VCC:  2     5V  > pin 4 & 18
+
 GND:  4     GND > Pin 5 & 21
+
 MOSI: 1     11  > Pin 15
+
 MISO: 9     12  > pin 16
+
 SCK:  7     13  > pin 17
+
 RST:  5     10  > pin 29
 
+
 Xtal1:          > pin 7
+
 Xtal2:          > pin 8
 
 or make the board using the uploaded files on a UNO 
@@ -40,13 +49,19 @@ for programing you can use a UNO or any other boards as programmer but you can a
 15) Tools > Load bootloader
 
 16) if correct " Done uploading " should show 
+
 as well as : 
+
 Reading | ################################################## | 100% 0.00s
 
+
 avrdude: verifying ...
+
 avrdude: 1 bytes of lock verified
 
+
 avrdude done.  Thank you.
+
 
 IF any error check if chip is placed correctly and or making good contact most upload errors are bad connections 
 
